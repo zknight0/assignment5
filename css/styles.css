@@ -1,0 +1,72 @@
+img {
+    box-shadow: 2px 2px #cccccc;
+}
+
+a {
+    font-style: oblique;
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase; 
+}
+
+h1 {
+    font-family: sans-serif ;
+    color: white;
+}
+
+p {
+color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/dream%20studio.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center
+}
+
+.sans {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.grey {
+    color: #c9c9c9;
+}
+
+.black {
+    color: black;
+}
+
+#border {
+    border: 2px solid;
+    padding: 5px;
+    background-color:#eeeeee;
+}
+
+#border li{
+    background-color:#ffced8
+}
+
+@media screen and (max-width: 30rem) {
+    header, 
+    main, 
+    footer,
+    form p {
+        flex-direction: column;
+    }
